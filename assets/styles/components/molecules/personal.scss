@@ -1,0 +1,75 @@
+.container {
+    max-width: 100%;
+    height: auto;
+}
+.hero {
+    background: var(--color--blue);
+    padding-left: 23px;
+    padding-right: 23px;
+
+    &__logo {
+        display: inline;
+        padding-right: 90px;
+        padding-top: 25px;
+    }
+
+    &__title {
+        line-height: 800;
+        font-size: 56px;
+        line-height: 64px;
+        text-align: center;
+        color: var(--color--white);
+        padding-top: 87px;
+    }
+
+    &__paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -1px;
+        text-align: center;
+        color: var(--color--lightgray);
+        padding-top: 12px;
+        padding-bottom: 87px;
+    }
+}
+
+.principal {
+    background: var(--color--lightorange);
+    padding-left: 23px;
+    padding-right: 23px;
+
+    &__photo {
+        padding-top: 80px;
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__name {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        color: var(--color--orange);
+        padding-top: 36px;
+        padding-bottom: 16px;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: var(--color--darkbrown);
+        padding-bottom: 31px;
+    }
+
+    &__paragraph {
+        font-family: "Epilogue", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: var(--color--darkbrown);
+        filter: drop-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.25));
+    }
+}

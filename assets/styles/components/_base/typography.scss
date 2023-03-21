@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap");
+
+body {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.text {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+
+    &__h1 {
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: var(--color--darkbrown);
+    }
+
+    &__h2 {
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: var(--color--darkbrown);
+    }
+
+    &__h3 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: var(--color--darkbrown);
+    }
+
+    &__h4 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: var(--color--darkbrown);
+    }
+
+    &__h5 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        color: var(--color--orange);
+    }
+
+    &__label {
+        font-weight: 700px;
+        font-size: 12px;
+        line-height: 12.3px;
+        color: var(--color--darkbrown);
+    }
+
+    &__TextBig {
+        line-height: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: var(--color--darkbrown);
+    }
+
+    &__Text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: var(--color--darkbrown);
+    }
+
+    &__TextGray {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: var(--color--brown);
+    }
+
+    &__TextSmall {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--color--brown);
+    }
+
+    &--brown {
+        color: var(--color--brown);
+    }
+
+    &--darkbrown {
+        color: var(--color--darkbrown);
+    }
+
+    &--orange {
+        color: var(--color--orange);
+    }
+
+    &--blue {
+        color: var(--color--blue);
+    }
+
+    &--lightgray {
+        color: var(--color--lightgray);
+    }
+
+    &--salmon {
+        color: var(--color--salmon);
+    }
+
+    &--black {
+        color: var(--color--black);
+    }
+
+    &--lightorange {
+        color: var(--color--lightorange);
+    }
+}

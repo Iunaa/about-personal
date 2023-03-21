@@ -1,0 +1,19 @@
+.button {
+    font-family: "Epilogue", sans-serif;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14.35px;
+    padding: 18px 56px 18px 56px;
+
+    &--orange {
+        background: var(--color--orange);
+        color: var(--color--white);
+    }
+
+    &--white {
+        background: var(--color--white);
+        color: var(--color--black);
+    }
+}
