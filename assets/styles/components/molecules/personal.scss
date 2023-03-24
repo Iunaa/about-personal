@@ -70,6 +70,27 @@
         font-size: 16px;
         line-height: 32px;
         color: var(--color--darkbrown);
-        filter: drop-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.25));
+        padding-bottom: 64px;
+    }
+
+    &__card1 {
+        border: 1px solid #f3d1bf;
+        width: 329px;
+        height: 208px;
+    }
+
+    &__encampsulamento {
+        border: 1px solid var(--color--orange);
+        padding: 32px;
+        border-radius: 50%;
+    }
+
+    &__img1 {
+    }
+
+    &__card2 {
+        border: 1px solid #f3d1bf;
+        width: 329px;
+        height: 208px;
     }
 }
